@@ -12,7 +12,7 @@
     <CreateNewFolder>true</CreateNewFolder>
     <LocationField>Enabled</LocationField>
     <ProvideDefaultName>true</ProvideDefaultName>
-    <Hidden>True</Hidden>
+    <Hidden>true</Hidden>
   </TemplateData>
   <TemplateContent>
     <Project TargetFileName="$ext_safeprojectname$.csproj" File="MultiTarget.csproj" ReplaceParameters="true">

@@ -13,7 +13,6 @@
         <LocationField>Enabled</LocationField>
         <PreviewImage>PreviewImage.PNG</PreviewImage>
         <PromptForSaveOnCreation>true</PromptForSaveOnCreation>
-        <NumberOfParentCategoriesToRollUp>2</NumberOfParentCategoriesToRollUp>
         <ProvideDefaultName>true</ProvideDefaultName>
     </TemplateData>
     <TemplateContent>

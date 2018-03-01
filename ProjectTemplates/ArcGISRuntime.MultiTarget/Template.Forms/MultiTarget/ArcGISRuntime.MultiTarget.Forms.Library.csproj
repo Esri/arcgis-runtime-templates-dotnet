@@ -98,7 +98,7 @@
     <ReplaceFileText 
       InputFilename="$(MSBuildThisFileDirectory)ArcGISRuntime.MultiTarget.Forms.App.vstemplate" 
       OutputFilename="$(MSBuildThisFileDirectory)ArcGISRuntime.MultiTarget.Forms.Library.vstemplate" 
-      MatchText="&lt;Hidden&gt;True&lt;/Hidden&gt;" 
+      MatchText="&lt;Hidden&gt;true&lt;/Hidden&gt;" 
       ReplacementText=" " />
   </Target>
   <UsingTask TaskName="ReplaceFileText" TaskFactory="CodeTaskFactory" AssemblyFile="$(MSBuildToolsPath)\Microsoft.Build.Tasks.v4.0.dll">
