@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="ProjectGroup" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+    <TemplateData>
+        <Name>ArcGIS Runtime App (Xamarin.Forms)</Name>
+        <Description>An ArcGIS Runtime SDK for .NET project for creating a multi-target project for Android, iOS, WPF and UWP with ArcGIS Runtime functionality.</Description>
+        <Icon>TemplateIcon.ico</Icon>
+        <TemplateID>Esri.CS.MultiTarget.Forms.MapApplication</TemplateID>
+        <DefaultName>ArcGISApp</DefaultName>
+        <ProjectType>CSharp</ProjectType>
+        <CreateInPlace>true</CreateInPlace>
+        <SortOrder>1000</SortOrder>
+        <CreateNewFolder>true</CreateNewFolder>
+        <LocationField>Enabled</LocationField>
+        <PreviewImage>PreviewImage.PNG</PreviewImage>
+        <PromptForSaveOnCreation>true</PromptForSaveOnCreation>
+        <NumberOfParentCategoriesToRollUp>2</NumberOfParentCategoriesToRollUp>
+        <ProvideDefaultName>true</ProvideDefaultName>
+    </TemplateData>
+    <TemplateContent>
+    <ProjectCollection>
+        <ProjectTemplateLink ProjectName="$safeprojectname$" CopyParameters="true">
+        MultiTarget\ArcGISRuntime.MultiTarget.Forms.App.vstemplate
+        </ProjectTemplateLink>
+        <ProjectTemplateLink ProjectName="$safeprojectname$.iOS" CopyParameters="true">
+        iOS\iOS.vstemplate
+        </ProjectTemplateLink>
+        <ProjectTemplateLink ProjectName="$safeprojectname$.Android" CopyParameters="true">
+        Android\Android.vstemplate
+        </ProjectTemplateLink>
+        <ProjectTemplateLink ProjectName="$safeprojectname$.UWP" CopyParameters="true">
+        UWP\UWP.vstemplate
+        </ProjectTemplateLink>
+    </ProjectCollection>
+    </TemplateContent>
+</VSTemplate>

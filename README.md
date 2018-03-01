@@ -1,2 +1,3 @@
-# arcgis-runtime-templates-dotnet
-A set of project and item templates for use with ArcGIS Runtime for .NET SDK
+# arcgis-runtime-templates-dotnet 
+
+A set of Visual Studio Project templates for ArcGIS Runtime SDK for .NET

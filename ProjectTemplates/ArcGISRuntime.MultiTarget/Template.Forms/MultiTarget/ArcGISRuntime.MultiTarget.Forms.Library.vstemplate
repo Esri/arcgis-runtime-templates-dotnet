@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>ArcGIS Runtime Class Library (Xamarin.Forms)</Name>
+    <Description>An ArcGIS Runtime SDK for .NET Xamarin.Forms class library for use in Android, iOS, WPF and UWP with ArcGIS Runtime functionality.</Description>
+    <Icon>TemplateIcon.ico</Icon>
+    <TemplateID>Esri.CS.MultiTarget.Forms.ClassLibrary</TemplateID>
+    <DefaultName>ArcGISApp</DefaultName>
+    <ProjectType>CSharp</ProjectType>
+    <CreateInPlace>true</CreateInPlace>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <LocationField>Enabled</LocationField>
+    <ProvideDefaultName>true</ProvideDefaultName>
+     
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="$ext_safeprojectname$.csproj" File="MultiTarget.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="App.cs">App.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="MapViewModel.cs">MapViewModel.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="MapPage.xaml">MapPage.xaml</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="MapPage.xaml.cs">MapPage.xaml.cs</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

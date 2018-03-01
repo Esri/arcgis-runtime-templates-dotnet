@@ -1,0 +1,45 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>ArcGISRuntimeApp.Android</Name>
+    <DefaultName>$ext_safeprojectname$.Droid</DefaultName>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Hidden>true</Hidden>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="$ext_safeprojectname$.Android.csproj" File="Android.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="MainActivity.cs">MainActivity.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Application.cs">Application.cs</ProjectItem>
+      <Folder Name="Assets" TargetFolderName="Assets">
+        <ProjectItem ReplaceParameters="false" TargetFileName="AboutAssets.txt">AboutAssets.txt</ProjectItem>
+      </Folder>
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AndroidManifest.xml">AndroidManifest.xml</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Resources" TargetFolderName="Resources">
+			<ProjectItem ReplaceParameters="false" TargetFileName="AboutResources.txt">AboutResources.txt</ProjectItem>
+			<ProjectItem ReplaceParameters="true" TargetFileName="Resource.Designer.cs">R.cs</ProjectItem>
+			<Folder Name="layout" TargetFolderName="layout">
+				<ProjectItem ReplaceParameters="false" TargetFileName="Main.axml">main.xml</ProjectItem>
+			</Folder>
+			<Folder Name="values" TargetFolderName="values">
+				<ProjectItem ReplaceParameters="true" TargetFileName="Strings.xml">strings.xml</ProjectItem>
+			</Folder>
+			<Folder Name="drawable" TargetFolderName="drawable">
+				<ProjectItem ReplaceParameters="false" TargetFileName="Icon.png">icon-hd.png</ProjectItem>
+			</Folder>
+		</Folder>
+    </Project>
+  </TemplateContent>
+	<WizardExtension>
+		<Assembly>Xamarin.VisualStudio.TemplateWizards, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756</Assembly>
+		<FullClassName>Xamarin.VisualStudio.TemplateWizards.AndroidTargetFrameworkVersionWizard</FullClassName>
+	</WizardExtension>
+</VSTemplate>
