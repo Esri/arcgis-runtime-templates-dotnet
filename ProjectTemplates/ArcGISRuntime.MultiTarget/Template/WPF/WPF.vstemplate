@@ -21,7 +21,7 @@
       <ProjectItem ReplaceParameters="false" TargetFileName="Properties\Settings.settings">Settings.settings</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="Properties\Settings.Designer.cs">Settings.Designer.cs</ProjectItem>
       <ProjectItem ReplaceParameters="true" SubType="Code">MainWindow.xaml.cs</ProjectItem>
-      <ProjectItem ReplaceParameters="true" OpenInEditor="true" OpenOrder="10">MainWindow.xaml</ProjectItem>
+      <ProjectItem ReplaceParameters="true">MainWindow.xaml</ProjectItem>
       <ProjectItem ReplaceParameters="true">App.xaml</ProjectItem>
       <ProjectItem ReplaceParameters="true" SubType="Code">App.xaml.cs</ProjectItem>
       <ProjectItem ReplaceParameters="true">App.config</ProjectItem>

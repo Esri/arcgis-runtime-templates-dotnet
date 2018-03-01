@@ -17,8 +17,8 @@
   <TemplateContent>
     <Project TargetFileName="$ext_safeprojectname$.csproj" File="MultiTarget.csproj" ReplaceParameters="true">
       <ProjectItem ReplaceParameters="true" TargetFileName="App.cs">App.cs</ProjectItem>
-      <ProjectItem ReplaceParameters="true" TargetFileName="MapViewModel.cs">MapViewModel.cs</ProjectItem>
-      <ProjectItem ReplaceParameters="true" TargetFileName="MapPage.xaml">MapPage.xaml</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="MapViewModel.cs" OpenInEditor="true" OpenOrder="11">MapViewModel.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="MapPage.xaml" OpenInEditor="true" OpenOrder="10">MapPage.xaml</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="MapPage.xaml.cs">MapPage.xaml.cs</ProjectItem>
     </Project>
   </TemplateContent>
