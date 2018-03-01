@@ -48,6 +48,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="..\..\..\legal\EULA.rtf">
+      <Link>EULA.rtf</Link>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <Content Include="..\Template\bin\ProjectTemplates\CSharp\1033\ArcGISRuntime.MultiTarget.App.zip">
       <Link>ProjectTemplates\CSharp\Cross-Platform\Multi-Targeting\ArcGISRuntime.MultiTarget.App.zip</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>

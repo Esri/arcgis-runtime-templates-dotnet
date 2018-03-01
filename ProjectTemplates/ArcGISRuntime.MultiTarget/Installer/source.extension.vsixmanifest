@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="Esri.ArcGISRuntime.MultiTargetingTemplate" Version="1.0.0" Language="en-US" Publisher="Esri Inc" />
+        <Identity Id="Esri.ArcGISRuntime.MultiTargetingTemplate" Version="1.0.0" Language="en-US" Publisher="Esri" />
         <DisplayName>ArcGIS Runtime .NET MultiTargeting templates</DisplayName>
         <Description xml:space="preserve">Adds a MultiTargeting project template for the ArcGIS Runtime to be used with WPF, UWP, Xamarin.iOS and Xamarin.Android.</Description>
         <MoreInfo>https://github.com/Esri/arcgis-runtime-templates-dotnet</MoreInfo>
+        <License>EULA.rtf</License>
         <Icon>ArcGISRuntimeDotNetSDK_32x32.png</Icon>
         <PreviewImage>ArcGISRuntimeDotNetSDK_200x200.png</PreviewImage>
         <Tags>Multi Target, NArcGIS, Runtime, ArcGIS Runtime, Map, Mapping, Maps, GIS, WPF, UWP, iOS, Android, Xamarin, Xamarin Forms, XAML</Tags>
