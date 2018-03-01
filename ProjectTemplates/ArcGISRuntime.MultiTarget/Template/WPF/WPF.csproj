@@ -7,8 +7,8 @@
     <ProjectGuid>{$guid1$}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>$safeprojectname$.WPF</RootNamespace>
-    <AssemblyName>$safeprojectname$.WPF</AssemblyName>
+    <RootNamespace>$ext_safeprojectname$.WPF</RootNamespace>
+    <AssemblyName>$ext_safeprojectname$.WPF</AssemblyName>
     <TargetFrameworkVersion>v$targetframeworkversion$</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>

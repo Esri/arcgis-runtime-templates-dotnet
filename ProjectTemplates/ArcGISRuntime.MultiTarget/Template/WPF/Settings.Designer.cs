@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace $safeprojectname$.WPF.Properties
+namespace $ext_safeprojectname$.WPF.Properties
 {
 
 

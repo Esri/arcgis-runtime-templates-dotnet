@@ -1,6 +1,6 @@
 ﻿using UIKit;
 
-namespace $ext_safeprojectname$
+namespace $ext_safeprojectname$.iOS
 {
 	public class Application
 	{

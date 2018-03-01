@@ -7,7 +7,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace $safeprojectname$.WPF
+namespace $ext_safeprojectname$.WPF
 {
     /// <summary>
     /// Interaction logic for App.xaml

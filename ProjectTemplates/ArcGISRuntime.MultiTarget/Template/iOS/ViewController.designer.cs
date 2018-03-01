@@ -5,7 +5,7 @@
 //
 using Foundation;
 
-namespace $ext_safeprojectname$.
+namespace $ext_safeprojectname$.iOS
 {
     [Register("ViewController")]
     partial class ViewController
