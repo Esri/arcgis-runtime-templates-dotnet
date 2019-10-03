@@ -2,12 +2,12 @@
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
         <Identity Id="Esri.ArcGISRuntime.ARTemplates" Version="1.0.0" Language="en-US" Publisher="Esri" />
-        <DisplayName>ArcGIS Runtime .NET - Xamarin Augmented Reality</DisplayName>
-        <Description xml:space="preserve">Adds a Xamarin start templates for building AR apps with the ArcGIS Runtime to be used with Xamarin.iOS and Xamarin.Android.</Description>
+        <DisplayName>ArcGIS Runtime SDK for .NET - AR Templates</DisplayName>
+        <Description xml:space="preserve">Project templates for building Augmented Reality apps for Android and iOS with Xamarin and ArcGIS Runtime SDK for .NET.</Description>
         <MoreInfo>https://github.com/Esri/arcgis-runtime-templates-dotnet</MoreInfo>
         <License>EULA.rtf</License>
-        <Icon>ArcGISRuntimeDotNetSDK_32x32.png</Icon>
-        <PreviewImage>ArcGISRuntimeDotNetSDK_200x200.png</PreviewImage>
+        <Icon>EsriGlobeIcon128x128.png</Icon>
+        <PreviewImage>EsriGlobeIcon128x128.png</PreviewImage>
         <Tags>AR, Augmented Reality, ArcGIS, Runtime, ArcGIS Runtime, Map, Mapping, Maps, GIS, iOS, Android, Xamarin, Xamarin Forms, XAML</Tags>
     </Metadata>
     <Installation>
