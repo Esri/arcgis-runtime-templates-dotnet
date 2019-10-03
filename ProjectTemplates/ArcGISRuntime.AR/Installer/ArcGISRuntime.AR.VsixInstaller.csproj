@@ -53,7 +53,7 @@
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="..\Template.Forms\bin\ProjectTemplates\CSharp\1033\ArcGISRuntime.AR.Forms.App.zip">
-      <Link>ProjectTemplates\CSharp\Cross-Platform\AR\ArcGISRuntime.AR.Forms.App.zip</Link>
+      <Link>ProjectTemplates\CSharp\ArcGISRuntime.AR.Forms.App.zip</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
@@ -69,9 +69,6 @@
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="stylesheet.css" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="ProjectTemplates\CSharp\Cross-Platform\1033\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(VSToolsPath)\VSSDK\Microsoft.VsSDK.targets" Condition="'$(VSToolsPath)' != ''" />
