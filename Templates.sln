@@ -21,6 +21,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArcGISRuntime.MultiTarget.F
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArcGISRuntime.MultiTarget.Forms.Library", "ProjectTemplates\ArcGISRuntime.MultiTarget\Template.Forms\MultiTarget\ArcGISRuntime.MultiTarget.Forms.Library.csproj", "{4ABBBCCB-E087-482D-A385-4332D9C431BC}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AR", "AR", "{59CBA572-E567-4272-80D0-2177A7449E43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArcGISRuntime.AR.Forms.App", "ProjectTemplates\ArcGISRuntime.AR\Template.Forms\ArcGISRuntime.AR.Forms.App.csproj", "{33CE3B91-CECD-45BC-94E3-7E00660C5FD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArcGISRuntime.AR.VsixInstaller", "ProjectTemplates\ArcGISRuntime.AR\Installer\ArcGISRuntime.AR.VsixInstaller.csproj", "{DA30EA02-871C-44F9-897C-21FB3D8475DD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{33CE3B91-CECD-45BC-94E3-7E00660C5FD0} = {33CE3B91-CECD-45BC-94E3-7E00660C5FD0}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +56,14 @@ Global
 		{4ABBBCCB-E087-482D-A385-4332D9C431BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4ABBBCCB-E087-482D-A385-4332D9C431BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4ABBBCCB-E087-482D-A385-4332D9C431BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33CE3B91-CECD-45BC-94E3-7E00660C5FD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33CE3B91-CECD-45BC-94E3-7E00660C5FD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33CE3B91-CECD-45BC-94E3-7E00660C5FD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33CE3B91-CECD-45BC-94E3-7E00660C5FD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA30EA02-871C-44F9-897C-21FB3D8475DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA30EA02-871C-44F9-897C-21FB3D8475DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA30EA02-871C-44F9-897C-21FB3D8475DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA30EA02-871C-44F9-897C-21FB3D8475DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -57,6 +74,8 @@ Global
 		{9C27596C-7E59-47F4-87AA-546A5A088E7D} = {4840BCF4-9625-46A9-876D-C789505CC0EE}
 		{70CAA684-165A-4AD4-A86D-851484CF9203} = {4840BCF4-9625-46A9-876D-C789505CC0EE}
 		{4ABBBCCB-E087-482D-A385-4332D9C431BC} = {4840BCF4-9625-46A9-876D-C789505CC0EE}
+		{33CE3B91-CECD-45BC-94E3-7E00660C5FD0} = {59CBA572-E567-4272-80D0-2177A7449E43}
+		{DA30EA02-871C-44F9-897C-21FB3D8475DD} = {59CBA572-E567-4272-80D0-2177A7449E43}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9C72F2B9-EDD5-4085-8269-A4FA18D5F807}
