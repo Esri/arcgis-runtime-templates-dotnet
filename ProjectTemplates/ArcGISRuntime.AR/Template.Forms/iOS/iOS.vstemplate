@@ -18,21 +18,23 @@
       <ProjectItem ReplaceParameters="true" TargetFileName="Entitlements.plist">Entitlements.plist</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="Info.plist">Info.plist</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="Main.cs">Main.cs</ProjectItem>
-      <Folder Name="AppIcon_appiconset" TargetFolderName="Assets.xcassets\AppIcon.appiconset">
-        <ProjectItem ReplaceParameters="false" TargetFileName="Contents.json">Contents.json</ProjectItem>
-        <ProjectItem ReplaceParameters="false" TargetFileName="Icon1024.png">Icon1024.png</ProjectItem>
-        <ProjectItem ReplaceParameters="false" TargetFileName="Icon120.png">Icon120.png</ProjectItem>
-        <ProjectItem ReplaceParameters="false" TargetFileName="Icon152.png">Icon152.png</ProjectItem>
-        <ProjectItem ReplaceParameters="false" TargetFileName="Icon167.png">Icon167.png</ProjectItem>
-        <ProjectItem ReplaceParameters="false" TargetFileName="Icon180.png">Icon180.png</ProjectItem>
-        <ProjectItem ReplaceParameters="false" TargetFileName="Icon20.png">Icon20.png</ProjectItem>
-        <ProjectItem ReplaceParameters="false" TargetFileName="Icon29.png">Icon29.png</ProjectItem>
-        <ProjectItem ReplaceParameters="false" TargetFileName="Icon40.png">Icon40.png</ProjectItem>
-        <ProjectItem ReplaceParameters="false" TargetFileName="Icon58.png">Icon58.png</ProjectItem>
-        <ProjectItem ReplaceParameters="false" TargetFileName="Icon60.png">Icon60.png</ProjectItem>
-        <ProjectItem ReplaceParameters="false" TargetFileName="Icon76.png">Icon76.png</ProjectItem>
-        <ProjectItem ReplaceParameters="false" TargetFileName="Icon80.png">Icon80.png</ProjectItem>
-        <ProjectItem ReplaceParameters="false" TargetFileName="Icon87.png">Icon87.png</ProjectItem>
+      <Folder Name="Assets.xcassets" TargetFolderName="Assets.xcassets">
+        <Folder Name="AppIcon.appiconset" TargetFolderName="AppIcon.appiconset">
+          <ProjectItem ReplaceParameters="false" TargetFileName="Contents.json">Contents.json</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="Icon1024.png">Icon1024.png</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="Icon120.png">Icon120.png</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="Icon152.png">Icon152.png</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="Icon167.png">Icon167.png</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="Icon180.png">Icon180.png</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="Icon20.png">Icon20.png</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="Icon29.png">Icon29.png</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="Icon40.png">Icon40.png</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="Icon58.png">Icon58.png</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="Icon60.png">Icon60.png</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="Icon76.png">Icon76.png</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="Icon80.png">Icon80.png</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="Icon87.png">Icon87.png</ProjectItem>
+        </Folder>
       </Folder>
       <Folder Name="Properties" TargetFolderName="Properties">
         <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
