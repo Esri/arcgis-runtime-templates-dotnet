@@ -17,8 +17,10 @@
   <TemplateContent>
     <Project TargetFileName="$ext_safeprojectname$.csproj" File="AR.csproj" ReplaceParameters="true">
       <ProjectItem ReplaceParameters="true" TargetFileName="App.cs">App.cs</ProjectItem>
-      <ProjectItem ReplaceParameters="true" TargetFileName="MainPage.xaml" OpenInEditor="true" OpenOrder="10">MainPage.xaml</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="MainPage.xaml">MainPage.xaml</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="MainPage.xaml.cs">MainPage.xaml.cs</ProjectItem>
+	  <ProjectItem ReplaceParameters="true" TargetFileName="ARPage.xaml" OpenInEditor="true" OpenOrder="10">ARPage.xaml</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="ARPage.xaml.cs">ARPage.xaml.cs</ProjectItem>
     </Project>
   </TemplateContent>
 </VSTemplate>

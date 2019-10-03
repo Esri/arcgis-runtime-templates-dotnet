@@ -149,7 +149,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App\MainPage.xaml">
-      <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </None>
   </ItemGroup>
@@ -167,6 +166,19 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App\ARPage.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App\ARPage.xaml.cs">
+      <DependentUpon>ARPage.xaml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(VSToolsPath)\VSSDK\Microsoft.VsSDK.targets" Condition="'$(VSToolsPath)' != ''" />

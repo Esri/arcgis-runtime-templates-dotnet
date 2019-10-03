@@ -14,6 +14,7 @@ using Esri.ArcGISRuntime.Security;
 using Esri.ArcGISRuntime.Symbology;
 using Esri.ArcGISRuntime.Tasks;
 using Esri.ArcGISRuntime.UI;
+using Xamarin.Forms;
 
 namespace $safeprojectname$
 {
@@ -28,7 +29,9 @@ namespace $safeprojectname$
             ArcGISRuntimeEnvironment.Initialize();
 
             // The root page of your application
-            MainPage = new MainPage();
+            var np = new NavigationPage();
+            MainPage = np;
+            np.Navigation.PushAsync(new MainPage());
         }
     }
 }

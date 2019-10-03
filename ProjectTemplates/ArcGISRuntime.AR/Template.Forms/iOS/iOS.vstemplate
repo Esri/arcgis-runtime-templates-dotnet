@@ -11,6 +11,7 @@
     <LocationField>Enabled</LocationField>
     <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
     <Hidden>true</Hidden>
+	<CreateInPlace>true</CreateInPlace> <!-- Workaround for files not visible in csproj not being created -->
   </TemplateData>
   <TemplateContent>
     <Project TargetFileName="$ext_safeprojectname$.iOS.csproj" File="iOS.csproj" ReplaceParameters="true">
