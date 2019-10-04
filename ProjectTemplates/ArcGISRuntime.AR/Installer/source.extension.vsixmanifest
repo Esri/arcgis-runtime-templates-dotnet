@@ -4,7 +4,7 @@
         <Identity Id="Esri.ArcGISRuntime.ARTemplates" Version="1.0.0" Language="en-US" Publisher="Esri" />
         <DisplayName>ArcGIS Runtime SDK for .NET - AR Templates</DisplayName>
         <Description xml:space="preserve">Project templates for building Augmented Reality apps for Android and iOS with Xamarin and ArcGIS Runtime SDK for .NET.</Description>
-        <MoreInfo>https://github.com/Esri/arcgis-runtime-templates-dotnet</MoreInfo>
+        <MoreInfo>https://links.esri.com/runtime-dotnet-sdk</MoreInfo>
         <License>EULA.rtf</License>
         <Icon>EsriGlobeIcon128x128.png</Icon>
         <PreviewImage>EsriGlobeIcon128x128.png</PreviewImage>
