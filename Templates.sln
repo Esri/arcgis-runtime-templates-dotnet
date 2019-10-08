@@ -28,7 +28,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArcGISRuntime.AR.VsixInstaller", "ProjectTemplates\ArcGISRuntime.AR\Installer\ArcGISRuntime.AR.VsixInstaller.csproj", "{DA30EA02-871C-44F9-897C-21FB3D8475DD}"
 	ProjectSection(ProjectDependencies) = postProject
 		{33CE3B91-CECD-45BC-94E3-7E00660C5FD0} = {33CE3B91-CECD-45BC-94E3-7E00660C5FD0}
+		{05B741D6-3318-41E4-BC7B-D17644D5F545} = {05B741D6-3318-41E4-BC7B-D17644D5F545}
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArcGISRuntime.AR.Android", "ProjectTemplates\ArcGISRuntime.AR\Template.Android\ArcGISRuntime.AR.Android.csproj", "{05B741D6-3318-41E4-BC7B-D17644D5F545}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -64,6 +67,10 @@ Global
 		{DA30EA02-871C-44F9-897C-21FB3D8475DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA30EA02-871C-44F9-897C-21FB3D8475DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA30EA02-871C-44F9-897C-21FB3D8475DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05B741D6-3318-41E4-BC7B-D17644D5F545}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05B741D6-3318-41E4-BC7B-D17644D5F545}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05B741D6-3318-41E4-BC7B-D17644D5F545}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05B741D6-3318-41E4-BC7B-D17644D5F545}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -76,6 +83,7 @@ Global
 		{4ABBBCCB-E087-482D-A385-4332D9C431BC} = {4840BCF4-9625-46A9-876D-C789505CC0EE}
 		{33CE3B91-CECD-45BC-94E3-7E00660C5FD0} = {59CBA572-E567-4272-80D0-2177A7449E43}
 		{DA30EA02-871C-44F9-897C-21FB3D8475DD} = {59CBA572-E567-4272-80D0-2177A7449E43}
+		{05B741D6-3318-41E4-BC7B-D17644D5F545} = {59CBA572-E567-4272-80D0-2177A7449E43}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9C72F2B9-EDD5-4085-8269-A4FA18D5F807}

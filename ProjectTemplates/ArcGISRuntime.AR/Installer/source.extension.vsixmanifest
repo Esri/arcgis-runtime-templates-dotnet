@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="Esri.ArcGISRuntime.ARTemplates" Version="1.0.0" Language="en-US" Publisher="Esri" />
+        <Identity Id="Esri.ArcGISRuntime.ARTemplates" Version="1.1.0" Language="en-US" Publisher="Esri" />
         <DisplayName>ArcGIS Runtime SDK for .NET - AR Templates</DisplayName>
         <Description xml:space="preserve">Project templates for building Augmented Reality apps for Android and iOS with Xamarin and ArcGIS Runtime SDK for .NET.</Description>
         <MoreInfo>https://links.esri.com/runtime-dotnet-sdk</MoreInfo>
@@ -19,7 +19,8 @@
         <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
     </Dependencies>
     <Assets>
-        <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="ProjectTemplates" d:TargetPath="ProjectTemplates\CSharp\Cross-Platform\AR\1033\ArcGISRuntime.AR.Forms.App.zip" />
+        <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="ProjectTemplates" d:TargetPath="ProjectTemplates\CSharp\1033\ArcGISRuntime.AR.Forms.App.zip" />
+        <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="ProjectTemplates" d:TargetPath="ProjectTemplates\CSharp\1033\ArcGISRuntime.AR.Android.zip" />
     </Assets>
     <Prerequisites>
         <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[16.0,17.0)" DisplayName="Visual Studio core editor" />

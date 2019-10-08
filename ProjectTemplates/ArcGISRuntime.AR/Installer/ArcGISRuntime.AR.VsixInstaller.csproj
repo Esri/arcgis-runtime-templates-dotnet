@@ -53,7 +53,12 @@
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="..\Template.Forms\bin\ProjectTemplates\CSharp\1033\ArcGISRuntime.AR.Forms.App.zip">
-      <Link>ProjectTemplates\CSharp\ArcGISRuntime.AR.Forms.App.zip</Link>
+      <Link>ProjectTemplates\CSharp\1033\ArcGISRuntime.AR.Forms.App.zip</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="..\Template.Android\bin\ProjectTemplates\CSharp\1033\ArcGISRuntime.AR.Android.zip">
+      <Link>ProjectTemplates\CSharp\1033\ArcGISRuntime.AR.Android.zip</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
