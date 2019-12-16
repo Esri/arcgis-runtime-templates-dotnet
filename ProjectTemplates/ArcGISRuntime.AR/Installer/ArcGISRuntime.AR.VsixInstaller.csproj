@@ -72,7 +72,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="EsriGlobeIcon128x128.png">
+    <Content Include="ArcGIS_SDK_128.png">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="stylesheet.css" />
