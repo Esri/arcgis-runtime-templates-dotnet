@@ -67,7 +67,7 @@
     <Reference Include="System.Numerics.Vectors" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Esri.ArcGISRuntime.ARToolkit" Version="100.6.0" />
+    <PackageReference Include="Esri.ArcGISRuntime.ARToolkit" Version="100.7.0" />
   </ItemGroup>
   <ItemGroup>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json">
