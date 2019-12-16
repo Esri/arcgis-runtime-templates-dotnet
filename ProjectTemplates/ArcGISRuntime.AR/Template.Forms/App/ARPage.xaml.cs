@@ -49,6 +49,7 @@ namespace $safeprojectname$
             arSceneView.StartTrackingAsync();
             base.OnAppearing();
         }
+
         protected override void OnDisappearing()
         {
             arSceneView.StopTrackingAsync();
@@ -73,7 +74,7 @@ namespace $safeprojectname$
             Device.BeginInvokeOnMainThread(() =>
             {
                 if (!planesDetected)
-                    Status.Text = "Move your device in a circular motion to detected surfaces";
+                    Status.Text = "Move your device in a circular motion to detect surfaces";
                 else if(arSceneView.Scene == null)
                     Status.Text = "Double-tap a plane to place your scene";
                 else
