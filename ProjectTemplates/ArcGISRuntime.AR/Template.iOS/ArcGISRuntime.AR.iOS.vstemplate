@@ -17,7 +17,6 @@
     <PlatformTag>ios</PlatformTag>
     <ProjectTypeTag>mobile</ProjectTypeTag>
     <ProjectTypeTag>ArcGIS</ProjectTypeTag>
-
   </TemplateData>
   <TemplateContent>
     <Project TargetFileName="$safeprojectname$.csproj" File="iOS.csproj" ReplaceParameters="true">
@@ -26,8 +25,6 @@
       <ProjectItem ReplaceParameters="true" TargetFileName="Info.plist">Info.plist</ProjectItem>
       <ProjectItem ReplaceParameters="false" TargetFileName="LaunchScreen.storyboard">LaunchScreen.storyboard</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="Main.cs">Main.cs</ProjectItem>
-      <ProjectItem ReplaceParameters="false" TargetFileName="Main.storyboard">Main.storyboard</ProjectItem>
-      <ProjectItem ReplaceParameters="false" TargetFileName="SceneDelegate.cs">SceneDelegate.cs</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="ViewController.cs">ViewController.cs</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="ViewController.designer.cs">ViewController.designer.cs</ProjectItem>
       <Folder Name="Assets.xcassets" TargetFolderName="Assets.xcassets">

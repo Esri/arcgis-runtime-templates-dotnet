@@ -15,7 +15,11 @@ namespace $safeprojectname$
         public ViewController(IntPtr handle) : base(handle)
         {
         }
-
+        
+        public ViewController()
+        {
+        }
+        
         public override void ViewDidLoad()
         {
             base.ViewDidLoad();
