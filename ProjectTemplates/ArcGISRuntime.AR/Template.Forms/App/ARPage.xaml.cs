@@ -43,11 +43,24 @@ namespace $safeprojectname$
 
         }
 
-        protected override void OnAppearing()
+        private async Task StartTrackingAsync()
         {
             Status.Text = "Move your device in a circular motion to detect surfaces";
-            arSceneView.StartTrackingAsync();
+            try
+            {
+                await arSceneView.StartTrackingAsync();
+            }
+            catch(System.Exception ex)
+            {
+                await DisplayAlert("Error starting tracking", ex.Message, "Ok");
+                _ = Navigation.PopAsync();
+            }
+        }
+
+        protected override void OnAppearing()
+        {
             base.OnAppearing();
+            _ = StartTrackingAsync();
         }
 
         protected override void OnDisappearing()
