@@ -2,9 +2,10 @@
 
 A set of Visual Studio Project starter templates for ArcGIS Runtime SDK for .NET.
 
-You'll be able to find and install these project templates in the [Visual Studio Marketplace](https://marketplace.visualstudio.com/search?term=publisher%3A"ArcGIS%20Runtime%20team"&target=VS&category=All%20categories&vsVersion=&sortBy=Relevance)
+You'll be able to find and install these project templates in the [Visual Studio Marketplace](https://marketplace.visualstudio.com/publishers/Esri)
 
 ## Features
+* ArcGISRuntime.AR - A set of project templates for implementing AR solutions on Android and iOS with Xamarin.
 * Multi-target - A set of project templates pre-configured for multi-targeting several platforms
 
 ## Instructions
