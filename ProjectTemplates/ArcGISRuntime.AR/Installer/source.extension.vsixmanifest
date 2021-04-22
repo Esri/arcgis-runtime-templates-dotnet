@@ -6,7 +6,6 @@
         <Description xml:space="preserve">Project templates for building Augmented Reality apps for Android and iOS with Xamarin and ArcGIS Runtime SDK for .NET.</Description>
         <MoreInfo>https://links.esri.com/runtime-dotnet-sdk</MoreInfo>
         <License>EULA.rtf</License>
-        <ReleaseNotes>Updated to ArcGIS Runtime v100.11.0</ReleaseNotes>
         <Icon>ArcGIS_SDK_128.png</Icon>
         <PreviewImage>ArcGIS_SDK_128.png</PreviewImage>
         <Tags>AR, Augmented Reality, ArcGIS, Runtime, ArcGIS Runtime, Map, Mapping, Maps, GIS, iOS, Android, Xamarin, Xamarin Forms, XAML</Tags>
