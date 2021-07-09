@@ -6,7 +6,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
-using Android.Support.V7.App;
+using AndroidX.AppCompat.App;
 using Esri.ArcGISRuntime.Mapping;
 
 namespace $safeprojectname$
@@ -20,6 +20,7 @@ namespace $safeprojectname$
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
+            Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             Esri.ArcGISRuntime.ArcGISRuntimeEnvironment.Initialize();
             SetContentView(Resource.Layout.main);
             trackingStatus = FindViewById<TextView>(Resource.Id.trackingStatus);
@@ -28,6 +29,13 @@ namespace $safeprojectname$
             arSceneView.TranslationFactor = 10000; //1m device movement == 10km
             arSceneView.PlanesDetectedChanged += ArSceneView_PlanesDetectedChanged;
             arSceneView.GeoViewDoubleTapped += ArSceneView_GeoViewDoubleTapped;
+        }
+
+        public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
+        {
+            Xamarin.Essentials.Platform.OnRequestPermissionsResult(requestCode, permissions, grantResults);
+    
+            base.OnRequestPermissionsResult(requestCode, permissions, grantResults);
         }
 
         private async void InitializeScene()
