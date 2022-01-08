@@ -12,7 +12,7 @@
 
 **Project templates offer an ideal starting point for building apps with ArcGIS Runtime.**
 
-<table align="center">
+<table>
 <tr>
 <td align="center">
 <a href='https://marketplace.visualstudio.com/items?itemName=Esri.ArcGISRuntimeTemplates'><img src='https://developer.microsoft.com/store/badges/images/English_get-it-from-MS.png' alt='English badge' width="125" /></a>
