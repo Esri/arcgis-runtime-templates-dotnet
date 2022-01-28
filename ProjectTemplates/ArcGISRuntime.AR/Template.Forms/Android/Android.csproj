@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>$ext_safeprojectname$.Droid</RootNamespace>
     <AssemblyName>$ext_safeprojectname$.Android</AssemblyName>
-	<TargetFrameworkVersion>$androidTargetFrameworkVersion$</TargetFrameworkVersion>
+    <TargetFrameworkVersion>$androidTargetFrameworkVersion$</TargetFrameworkVersion>
     <AndroidApplication>true</AndroidApplication>
     <AndroidResgenFile>Resources\Resource.Designer.cs</AndroidResgenFile>
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
@@ -46,15 +46,14 @@
   <ItemGroup>
     <Reference Include="Mono.Android" />
     <Reference Include="mscorlib" />
-    <Reference Include="OpenTK-1.0" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="5.0.0.1874" />
-    <PackageReference Include="Xamarin.Essentials" Version="1.6.1" />
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2244" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.7.1" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainActivity.cs" />
